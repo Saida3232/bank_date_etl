@@ -1,4 +1,10 @@
 -- ds слой
+
+
+CREATE USER ds_user WITH PASSWORD 'your_password';
+CREATE SCHEMA ds AUTHORIZATION ds_user;
+GRANT ALL PRIVILEGES ON SCHEMA DS TO ds_user;
+
 CREATE TABLE ds.ft_balance_f (
 	on_date date NOT NULL,
 	account_rk int4 NOT NULL,
