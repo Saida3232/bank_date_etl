@@ -1,0 +1,16 @@
+[2025-01-07T00:09:00.455+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_insert_log.sql_md_ledger_account_s manual__2025-01-07T00:08:23.855499+00:00 [queued]>
+[2025-01-07T00:09:00.531+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_insert_log.sql_md_ledger_account_s manual__2025-01-07T00:08:23.855499+00:00 [queued]>
+[2025-01-07T00:09:00.535+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-01-07T00:09:00.650+0000] {taskinstance.py:2191} INFO - Executing <Task(SQLExecuteQueryOperator): sql_md_ledger_account_s> on 2025-01-07 00:08:23.855499+00:00
+[2025-01-07T00:09:00.669+0000] {standard_task_runner.py:60} INFO - Started process 1253 to run task
+[2025-01-07T00:09:00.713+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_insert_log', 'sql_md_ledger_account_s', 'manual__2025-01-07T00:08:23.855499+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/dag_insert_log.py', '--cfg-path', '/tmp/tmpzczfax3u']
+[2025-01-07T00:09:00.743+0000] {standard_task_runner.py:88} INFO - Job 111: Subtask sql_md_ledger_account_s
+[2025-01-07T00:09:01.091+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_insert_log.sql_md_ledger_account_s manual__2025-01-07T00:08:23.855499+00:00 [running]> on host 22295d32c47d
+[2025-01-07T00:09:01.680+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='saida' AIRFLOW_CTX_DAG_ID='dag_insert_log' AIRFLOW_CTX_TASK_ID='sql_md_ledger_account_s' AIRFLOW_CTX_EXECUTION_DATE='2025-01-07T00:08:23.855499+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-07T00:08:23.855499+00:00'
+[2025-01-07T00:09:01.682+0000] {sql.py:276} INFO - Executing: CALL ds.stage_to_md_ledger_account_s();
+[2025-01-07T00:09:01.718+0000] {base.py:83} INFO - Using connection ID '***-db' for task execution.
+[2025-01-07T00:09:01.740+0000] {base.py:83} INFO - Using connection ID '***-db' for task execution.
+[2025-01-07T00:09:02.000+0000] {sql.py:450} INFO - Running statement: CALL ds.stage_to_md_ledger_account_s();, parameters: None
+[2025-01-07T00:09:02.105+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_insert_log, task_id=sql_md_ledger_account_s, execution_date=20250107T000823, start_date=20250107T000900, end_date=20250107T000902
+[2025-01-07T00:09:02.215+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-01-07T00:09:02.350+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

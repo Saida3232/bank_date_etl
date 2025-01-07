@@ -1,6 +1,5 @@
 -- ds слой
 
-
 CREATE USER ds_user WITH PASSWORD 'your_password';
 CREATE SCHEMA ds AUTHORIZATION ds_user;
 GRANT ALL PRIVILEGES ON SCHEMA DS TO ds_user;

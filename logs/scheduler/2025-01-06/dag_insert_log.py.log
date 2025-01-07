@@ -1,0 +1,578 @@
+[2025-01-06T23:17:07.729+0000] {processor.py:161} INFO - Started process (PID=1138) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:17:07.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:17:07.733+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:07.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:17:08.227+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:17:08.364+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:08.363+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:dag_insert_log
+[2025-01-06T23:17:08.379+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:08.378+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:dag_insert_log
+[2025-01-06T23:17:08.391+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:08.390+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:dag_insert_log
+[2025-01-06T23:17:08.392+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:08.391+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:17:08.406+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:08.405+0000] {dag.py:3058} INFO - Creating ORM DAG for dag_insert_log
+[2025-01-06T23:17:08.421+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:08.421+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:17:08.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.718 seconds
+[2025-01-06T23:17:38.515+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:17:38.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:17:38.519+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:38.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:17:39.037+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:17:39.057+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:39.056+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:17:39.084+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:17:39.084+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:17:39.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.596 seconds
+[2025-01-06T23:18:09.737+0000] {processor.py:161} INFO - Started process (PID=1252) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:18:09.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:18:09.741+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:18:09.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:18:10.333+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:18:10.353+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:18:10.352+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:18:10.377+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:18:10.377+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:18:10.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.669 seconds
+[2025-01-06T23:18:41.131+0000] {processor.py:161} INFO - Started process (PID=1309) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:18:41.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:18:41.135+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:18:41.134+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:18:41.675+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:18:41.695+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:18:41.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:18:41.720+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:18:41.720+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:18:41.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.616 seconds
+[2025-01-06T23:19:12.325+0000] {processor.py:161} INFO - Started process (PID=1366) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:19:12.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:19:12.329+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:19:12.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:19:12.850+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:19:12.872+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:19:12.870+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:19:12.898+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:19:12.898+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:19:12.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.600 seconds
+[2025-01-06T23:19:43.327+0000] {processor.py:161} INFO - Started process (PID=1423) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:19:43.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:19:43.331+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:19:43.330+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:19:44.236+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:19:44.265+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:19:44.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:19:44.294+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:19:44.294+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:19:44.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.996 seconds
+[2025-01-06T23:20:15.096+0000] {processor.py:161} INFO - Started process (PID=1480) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:20:15.097+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:20:15.100+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:20:15.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:20:15.631+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:20:15.652+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:20:15.650+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:20:15.680+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:20:15.680+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:20:15.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.615 seconds
+[2025-01-06T23:20:46.376+0000] {processor.py:161} INFO - Started process (PID=1537) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:20:46.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:20:46.380+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:20:46.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:20:46.955+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:20:46.980+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:20:46.978+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:20:47.004+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:20:47.004+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:20:47.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.656 seconds
+[2025-01-06T23:21:17.707+0000] {processor.py:161} INFO - Started process (PID=1594) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:21:17.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:21:17.712+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:21:17.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:21:18.329+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:21:18.356+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:21:18.355+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:21:18.385+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:21:18.385+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:21:18.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.709 seconds
+[2025-01-06T23:21:49.299+0000] {processor.py:161} INFO - Started process (PID=1651) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:21:49.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:21:49.303+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:21:49.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:21:49.797+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:21:49.820+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:21:49.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:21:49.853+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:21:49.853+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:21:49.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.585 seconds
+[2025-01-06T23:22:20.585+0000] {processor.py:161} INFO - Started process (PID=1708) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:22:20.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:22:20.589+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:22:20.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:22:21.088+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:22:21.110+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:22:21.109+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:22:21.135+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:22:21.135+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:22:21.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.578 seconds
+[2025-01-06T23:22:51.775+0000] {processor.py:161} INFO - Started process (PID=1764) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:22:51.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:22:51.779+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:22:51.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:22:52.351+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:22:52.371+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:22:52.370+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:22:52.396+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:22:52.396+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:22:52.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.649 seconds
+[2025-01-06T23:23:22.558+0000] {processor.py:161} INFO - Started process (PID=1822) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:23:22.560+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:23:22.562+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:23:22.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:23:23.064+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:23:23.088+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:23:23.087+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:23:23.116+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:23:23.116+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:23:23.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.583 seconds
+[2025-01-06T23:23:54.032+0000] {processor.py:161} INFO - Started process (PID=1879) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:23:54.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:23:54.037+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:23:54.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:23:54.541+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:23:54.568+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:23:54.568+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:23:54.594+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:23:54.594+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:23:54.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.594 seconds
+[2025-01-06T23:24:25.512+0000] {processor.py:161} INFO - Started process (PID=1936) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:24:25.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:24:25.516+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:24:25.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:24:26.035+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:24:26.055+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:24:26.055+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:24:26.081+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:24:26.081+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:24:26.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.600 seconds
+[2025-01-06T23:24:56.202+0000] {processor.py:161} INFO - Started process (PID=1993) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:24:56.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:24:56.208+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:24:56.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:24:56.773+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:24:56.802+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:24:56.801+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:24:56.829+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:24:56.829+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:24:56.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.657 seconds
+[2025-01-06T23:25:26.962+0000] {processor.py:161} INFO - Started process (PID=2052) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:25:26.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:25:26.967+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:25:26.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:25:27.438+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:25:27.459+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:25:27.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:25:27.485+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:25:27.485+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:25:27.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.551 seconds
+[2025-01-06T23:25:57.847+0000] {processor.py:161} INFO - Started process (PID=2106) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:25:57.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:25:57.851+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:25:57.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:25:58.493+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:25:58.518+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:25:58.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:25:58.557+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:25:58.557+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:25:58.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.741 seconds
+[2025-01-06T23:26:28.694+0000] {processor.py:161} INFO - Started process (PID=2167) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:26:28.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:26:28.697+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:26:28.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:26:29.321+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:26:29.344+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:26:29.344+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:26:29.377+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:26:29.377+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:26:29.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.712 seconds
+[2025-01-06T23:27:00.335+0000] {processor.py:161} INFO - Started process (PID=2227) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:27:00.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:27:00.345+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:27:00.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:27:01.515+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:27:01.542+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:27:01.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:27:01.576+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:27:01.576+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:27:01.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.270 seconds
+[2025-01-06T23:27:31.776+0000] {processor.py:161} INFO - Started process (PID=2286) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:27:31.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:27:31.785+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:27:31.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:27:32.671+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:27:32.702+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:27:32.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:27:32.742+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:27:32.742+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:27:32.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.016 seconds
+[2025-01-06T23:28:03.244+0000] {processor.py:161} INFO - Started process (PID=2347) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:28:03.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:28:03.249+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:28:03.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:28:03.921+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:28:03.950+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:28:03.949+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:28:03.985+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:28:03.984+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-05 00:00:00+00:00, run_after=2025-01-06 00:00:00+00:00
+[2025-01-06T23:28:04.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.815 seconds
+[2025-01-06T23:28:34.198+0000] {processor.py:161} INFO - Started process (PID=2409) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:28:34.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:28:34.203+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:28:34.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:28:35.435+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:28:35.486+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:28:35.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:28:35.540+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:28:35.540+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:28:35.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.392 seconds
+[2025-01-06T23:29:05.933+0000] {processor.py:161} INFO - Started process (PID=2477) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:29:05.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:29:05.941+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:29:05.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:29:07.418+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:29:07.473+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:29:07.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:29:07.542+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:29:07.541+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:29:07.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.663 seconds
+[2025-01-06T23:29:38.013+0000] {processor.py:161} INFO - Started process (PID=2539) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:29:38.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:29:38.023+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:29:38.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:29:38.658+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:29:38.685+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:29:38.684+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:29:38.716+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:29:38.716+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:29:38.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.738 seconds
+[2025-01-06T23:30:09.087+0000] {processor.py:161} INFO - Started process (PID=2596) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:30:09.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:30:09.092+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:30:09.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:30:09.661+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:30:09.683+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:30:09.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:30:09.711+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:30:09.710+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:30:09.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.651 seconds
+[2025-01-06T23:30:40.494+0000] {processor.py:161} INFO - Started process (PID=2654) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:30:40.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:30:40.499+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:30:40.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:30:40.884+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:30:40.905+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:30:40.904+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:30:40.933+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:30:40.933+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:30:40.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.470 seconds
+[2025-01-06T23:31:11.704+0000] {processor.py:161} INFO - Started process (PID=2711) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:31:11.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:31:11.709+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:31:11.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:31:12.080+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:31:12.101+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:31:12.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:31:12.129+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:31:12.129+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:31:12.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.457 seconds
+[2025-01-06T23:31:42.713+0000] {processor.py:161} INFO - Started process (PID=2767) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:31:42.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:31:42.729+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:31:42.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:31:45.569+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:31:45.684+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:31:45.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:31:45.861+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:31:45.860+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:31:45.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 3.254 seconds
+[2025-01-06T23:32:16.451+0000] {processor.py:161} INFO - Started process (PID=2827) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:32:16.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:32:16.459+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:32:16.458+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:32:16.978+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:32:17.005+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:32:17.004+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:32:17.049+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:32:17.049+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:32:17.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.640 seconds
+[2025-01-06T23:32:47.559+0000] {processor.py:161} INFO - Started process (PID=2884) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:32:47.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:32:47.638+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:32:47.637+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:32:48.695+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:32:48.725+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:32:48.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:32:48.762+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:32:48.762+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:32:48.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.234 seconds
+[2025-01-06T23:33:18.914+0000] {processor.py:161} INFO - Started process (PID=2943) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:33:18.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:33:18.918+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:33:18.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:33:19.355+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:33:19.377+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:33:19.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:33:19.405+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:33:19.405+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:33:19.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.523 seconds
+[2025-01-06T23:33:49.577+0000] {processor.py:161} INFO - Started process (PID=3001) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:33:49.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:33:49.580+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:33:49.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:33:50.041+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:33:50.080+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:33:50.080+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:33:50.107+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:33:50.107+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:33:50.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.556 seconds
+[2025-01-06T23:34:21.061+0000] {processor.py:161} INFO - Started process (PID=3061) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:34:21.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:34:21.066+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:34:21.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:34:22.187+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:34:22.240+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:34:22.237+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:34:22.301+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:34:22.300+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:34:22.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.293 seconds
+[2025-01-06T23:34:52.433+0000] {processor.py:161} INFO - Started process (PID=3120) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:34:52.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:34:52.437+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:34:52.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:34:52.827+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:34:52.849+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:34:52.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:34:52.878+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:34:52.878+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:34:52.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.478 seconds
+[2025-01-06T23:35:23.808+0000] {processor.py:161} INFO - Started process (PID=3177) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:35:23.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:35:23.812+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:35:23.811+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:35:24.267+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:35:24.296+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:35:24.295+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:35:24.337+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:35:24.336+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:35:24.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.561 seconds
+[2025-01-06T23:35:55.122+0000] {processor.py:161} INFO - Started process (PID=3234) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:35:55.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:35:55.126+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:35:55.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:35:55.609+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:35:55.630+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:35:55.629+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:35:55.659+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:35:55.659+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:35:55.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.570 seconds
+[2025-01-06T23:36:25.934+0000] {processor.py:161} INFO - Started process (PID=3291) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:36:25.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:36:25.941+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:36:25.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:36:26.457+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:36:26.479+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:36:26.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:36:26.507+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:36:26.507+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:36:26.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.606 seconds
+[2025-01-06T23:36:56.820+0000] {processor.py:161} INFO - Started process (PID=3347) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:36:56.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:36:56.824+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:36:56.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:36:57.404+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:36:57.436+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:36:57.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:36:57.478+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:36:57.478+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:36:57.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.699 seconds
+[2025-01-06T23:37:29.734+0000] {processor.py:161} INFO - Started process (PID=3407) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:37:29.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:37:29.747+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:37:29.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:37:30.366+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:37:30.401+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:37:30.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:37:30.460+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:37:30.460+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:37:30.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.767 seconds
+[2025-01-06T23:38:00.905+0000] {processor.py:161} INFO - Started process (PID=3464) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:38:00.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:38:00.909+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:38:00.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:38:01.912+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:38:02.048+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:38:02.047+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:38:02.141+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:38:02.141+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:38:02.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.358 seconds
+[2025-01-06T23:38:32.522+0000] {processor.py:161} INFO - Started process (PID=3521) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:38:32.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:38:32.526+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:38:32.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:38:32.970+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:38:32.995+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:38:32.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:38:33.038+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:38:33.037+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:38:33.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.558 seconds
+[2025-01-06T23:39:03.812+0000] {processor.py:161} INFO - Started process (PID=3578) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:39:03.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:39:03.816+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:39:03.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:39:04.404+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:39:04.437+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:39:04.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:39:04.482+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:39:04.482+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:39:04.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.712 seconds
+[2025-01-06T23:39:35.113+0000] {processor.py:161} INFO - Started process (PID=3641) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:39:35.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:39:35.117+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:39:35.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:39:35.516+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:39:35.540+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:39:35.539+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:39:35.571+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:39:35.570+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:39:35.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.493 seconds
+[2025-01-06T23:40:05.733+0000] {processor.py:161} INFO - Started process (PID=3698) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:40:05.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:40:05.737+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:40:05.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:40:06.106+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:40:06.128+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:40:06.127+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:40:06.156+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:40:06.156+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:40:06.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.453 seconds
+[2025-01-06T23:40:36.321+0000] {processor.py:161} INFO - Started process (PID=3755) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:40:36.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:40:36.324+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:40:36.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:40:36.789+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:40:36.822+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:40:36.822+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:40:36.866+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:40:36.866+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:40:36.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.585 seconds
+[2025-01-06T23:41:07.690+0000] {processor.py:161} INFO - Started process (PID=3812) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:41:07.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:41:07.694+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:41:07.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:41:08.117+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:41:08.138+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:41:08.137+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:41:08.167+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:41:08.167+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:41:08.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.517 seconds
+[2025-01-06T23:41:38.368+0000] {processor.py:161} INFO - Started process (PID=3870) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:41:38.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:41:38.372+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:41:38.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:41:38.745+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:41:38.767+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:41:38.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:41:38.808+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:41:38.807+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:41:38.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.487 seconds
+[2025-01-06T23:42:09.965+0000] {processor.py:161} INFO - Started process (PID=3926) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:42:09.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:42:09.979+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:42:09.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:42:11.110+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:42:11.173+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:42:11.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:42:11.248+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:42:11.248+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:42:11.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.339 seconds
+[2025-01-06T23:42:43.879+0000] {processor.py:161} INFO - Started process (PID=3989) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:42:43.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:42:43.891+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:42:43.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:42:46.389+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:42:46.522+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:42:46.512+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:42:46.705+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:42:46.705+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:42:46.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 3.073 seconds
+[2025-01-06T23:43:17.674+0000] {processor.py:161} INFO - Started process (PID=4053) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:43:17.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:43:17.683+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:43:17.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:43:18.433+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:43:18.500+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:43:18.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:43:18.553+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:43:18.552+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:43:18.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.921 seconds
+[2025-01-06T23:43:48.670+0000] {processor.py:161} INFO - Started process (PID=4110) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:43:48.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:43:48.680+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:43:48.679+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:43:49.619+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:43:49.657+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:43:49.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:43:49.716+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:43:49.716+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:43:49.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.092 seconds
+[2025-01-06T23:44:20.908+0000] {processor.py:161} INFO - Started process (PID=4168) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:44:20.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:44:20.923+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:44:20.922+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:44:22.129+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:44:22.208+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:44:22.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:44:22.466+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:44:22.464+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:44:22.558+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.657 seconds
+[2025-01-06T23:44:52.837+0000] {processor.py:161} INFO - Started process (PID=4228) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:44:52.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:44:52.841+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:44:52.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:44:53.298+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:44:53.323+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:44:53.323+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:44:53.358+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:44:53.358+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:44:53.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.552 seconds
+[2025-01-06T23:45:24.232+0000] {processor.py:161} INFO - Started process (PID=4285) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:45:24.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:45:24.237+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:45:24.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:45:24.849+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:45:24.880+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:45:24.878+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:45:24.928+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:45:24.927+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:45:24.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.737 seconds
+[2025-01-06T23:45:55.666+0000] {processor.py:161} INFO - Started process (PID=4344) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:45:55.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:45:55.670+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:45:55.670+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:45:56.363+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:45:56.397+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:45:56.395+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:45:56.437+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:45:56.436+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:45:56.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.814 seconds
+[2025-01-06T23:46:26.999+0000] {processor.py:161} INFO - Started process (PID=4402) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:46:27.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:46:27.003+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:46:27.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:46:27.597+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:46:27.627+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:46:27.626+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:46:27.670+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:46:27.669+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:46:27.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.709 seconds
+[2025-01-06T23:46:57.914+0000] {processor.py:161} INFO - Started process (PID=4462) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:46:57.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:46:57.919+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:46:57.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:46:58.365+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:46:58.391+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:46:58.391+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:46:58.432+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:46:58.432+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:46:58.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.553 seconds
+[2025-01-06T23:47:29.405+0000] {processor.py:161} INFO - Started process (PID=4521) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:47:29.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:47:29.409+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:47:29.409+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:47:29.894+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:47:29.920+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:47:29.920+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:47:29.951+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:47:29.951+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:47:29.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.582 seconds
+[2025-01-06T23:48:00.050+0000] {processor.py:161} INFO - Started process (PID=4578) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:48:00.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:48:00.056+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:48:00.055+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:48:00.551+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:48:00.577+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:48:00.576+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:48:00.607+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:48:00.607+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:48:00.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.591 seconds
+[2025-01-06T23:48:30.834+0000] {processor.py:161} INFO - Started process (PID=4635) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:48:30.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:48:30.845+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:48:30.845+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:48:32.394+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:48:32.488+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:48:32.478+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:48:32.630+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:48:32.629+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:48:32.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.910 seconds
+[2025-01-06T23:49:03.073+0000] {processor.py:161} INFO - Started process (PID=4693) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:49:03.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:49:03.078+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:49:03.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:49:03.567+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:49:03.594+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:49:03.593+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:49:03.633+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:49:03.633+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:49:03.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.615 seconds
+[2025-01-06T23:49:34.689+0000] {processor.py:161} INFO - Started process (PID=4747) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:49:34.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:49:34.709+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:49:34.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:49:37.420+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:49:37.470+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:49:37.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:49:37.525+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:49:37.525+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:49:37.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 2.873 seconds
+[2025-01-06T23:50:07.657+0000] {processor.py:161} INFO - Started process (PID=4813) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:50:07.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:50:07.661+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:50:07.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:50:08.237+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:50:08.281+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:50:08.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:50:08.327+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:50:08.327+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:50:08.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.727 seconds
+[2025-01-06T23:50:38.453+0000] {processor.py:161} INFO - Started process (PID=4869) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:50:38.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:50:38.477+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:50:38.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:50:39.143+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:50:39.173+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:50:39.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:50:39.221+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:50:39.221+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:50:39.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.807 seconds
+[2025-01-06T23:51:09.441+0000] {processor.py:161} INFO - Started process (PID=4929) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:51:09.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:51:09.445+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:51:09.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:51:09.912+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:51:09.934+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:51:09.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:51:09.968+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:51:09.968+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:51:09.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.560 seconds
+[2025-01-06T23:51:40.088+0000] {processor.py:161} INFO - Started process (PID=4989) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:51:40.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:51:40.092+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:51:40.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:51:40.466+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:51:40.487+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:51:40.486+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:51:40.516+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:51:40.516+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:51:40.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.461 seconds
+[2025-01-06T23:52:10.673+0000] {processor.py:161} INFO - Started process (PID=5043) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:52:10.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:52:10.677+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:52:10.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:52:11.428+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:52:11.525+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:52:11.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:52:11.572+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:52:11.572+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:52:11.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.930 seconds
+[2025-01-06T23:52:44.651+0000] {processor.py:161} INFO - Started process (PID=5104) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:52:44.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:52:44.658+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:52:44.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:52:45.685+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:52:45.723+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:52:45.722+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:52:45.793+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:52:45.792+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:52:45.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.199 seconds
+[2025-01-06T23:53:15.926+0000] {processor.py:161} INFO - Started process (PID=5166) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:53:15.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:53:15.931+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:53:15.930+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:53:16.469+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:53:16.502+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:53:16.501+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:53:16.542+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:53:16.541+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:53:16.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.664 seconds
+[2025-01-06T23:53:47.010+0000] {processor.py:161} INFO - Started process (PID=5225) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:53:47.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:53:47.015+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:53:47.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:53:47.680+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:53:47.702+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:53:47.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:53:47.733+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:53:47.733+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:53:47.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.751 seconds
+[2025-01-06T23:54:17.861+0000] {processor.py:161} INFO - Started process (PID=5281) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:54:17.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:54:17.865+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:54:17.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:54:18.360+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:54:18.385+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:54:18.384+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:54:18.414+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:54:18.414+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:54:18.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.583 seconds
+[2025-01-06T23:54:48.716+0000] {processor.py:161} INFO - Started process (PID=5339) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:54:48.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:54:48.722+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:54:48.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:54:49.211+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:54:49.238+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:54:49.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:54:49.273+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:54:49.273+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:54:49.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.592 seconds
+[2025-01-06T23:55:19.749+0000] {processor.py:161} INFO - Started process (PID=5396) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:55:19.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:55:19.755+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:55:19.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:55:20.299+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:55:20.340+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:55:20.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:55:20.383+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:55:20.382+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:55:20.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.668 seconds
+[2025-01-06T23:55:50.948+0000] {processor.py:161} INFO - Started process (PID=5453) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:55:50.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:55:50.952+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:55:50.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:55:51.483+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:55:51.509+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:55:51.509+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:55:51.547+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:55:51.546+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:55:51.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.645 seconds
+[2025-01-06T23:56:21.654+0000] {processor.py:161} INFO - Started process (PID=5511) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:56:21.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:56:21.658+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:56:21.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:56:22.271+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:56:22.304+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:56:22.303+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:56:22.352+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:56:22.352+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:56:22.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.733 seconds
+[2025-01-06T23:56:53.282+0000] {processor.py:161} INFO - Started process (PID=5570) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:56:53.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:56:53.285+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:56:53.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:56:53.724+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:56:53.749+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:56:53.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:56:53.781+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:56:53.781+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:56:53.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.534 seconds
+[2025-01-06T23:57:23.910+0000] {processor.py:161} INFO - Started process (PID=5630) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:57:23.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:57:23.914+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:57:23.914+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:57:24.395+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:57:24.422+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:57:24.421+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:57:24.459+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:57:24.458+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:57:24.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.578 seconds
+[2025-01-06T23:57:54.927+0000] {processor.py:161} INFO - Started process (PID=5684) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:57:54.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:57:54.944+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:57:54.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:57:56.844+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:57:56.902+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:57:56.901+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:57:56.969+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:57:56.969+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:57:57.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 2.401 seconds
+[2025-01-06T23:58:27.500+0000] {processor.py:161} INFO - Started process (PID=5742) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:58:27.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:58:27.505+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:58:27.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:58:28.166+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:58:28.198+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:58:28.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:58:28.478+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:58:28.477+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:58:28.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 1.028 seconds
+[2025-01-06T23:58:59.409+0000] {processor.py:161} INFO - Started process (PID=5804) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:58:59.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:58:59.414+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:58:59.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:58:59.936+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:58:59.959+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:58:59.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:59:00.007+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:59:00.007+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:59:00.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.791 seconds
+[2025-01-06T23:59:30.419+0000] {processor.py:161} INFO - Started process (PID=5865) to work on /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:59:30.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_insert_log.py for tasks to queue
+[2025-01-06T23:59:30.424+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:59:30.424+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:59:30.903+0000] {processor.py:840} INFO - DAG(s) 'dag_insert_log' retrieved from /opt/airflow/dags/dag_insert_log.py
+[2025-01-06T23:59:30.928+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:59:30.928+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-01-06T23:59:31.121+0000] {logging_mixin.py:188} INFO - [2025-01-06T23:59:31.121+0000] {dag.py:3823} INFO - Setting next_dagrun for dag_insert_log to 2025-01-06 00:00:00+00:00, run_after=2025-01-07 00:00:00+00:00
+[2025-01-06T23:59:31.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_insert_log.py took 0.734 seconds

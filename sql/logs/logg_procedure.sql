@@ -1,19 +1,22 @@
--- DROP PROCEDURE logs.logging_function(varchar, varchar, varchar, timestamptz, int4);
 
-CREATE OR REPLACE PROCEDURE logs.logging_function(IN table_name_param character varying, IN schema_name_param character varying, IN action_param character varying, IN start_time_param timestamp with time zone, IN rows_count integer)
+CREATE OR REPLACE PROCEDURE logs.logg_function(IN table_name_param character varying, IN schema_name_param character varying,status_param varchar, IN message_param text)
  LANGUAGE plpgsql
 AS $procedure$
-DECLARE
-    end_time timestamp = clock_timestamp();
-    duration_param interval;
+DECLARE 
+    error_message text;
+    start_time TIMESTAMP := now();
 BEGIN
-    RAISE NOTICE 'the time start %  and time_end % ', start_time_param, end_time;
-    duration_param = end_time - start_time_param;
-    INSERT INTO logs.logs_table(table_name, start_time, end_time, duration, count_changed_rows, schema_name, action)
-    VALUES (table_name_param, start_time_param, end_time, duration_param, rows_count, schema_name_param,action_param);
+    RAISE NOTICE 'the time log : %', start_time;
+
+    INSERT INTO logs.table_logs(log_time, table_name, schema_name,status, message)
+    VALUES (start_time, table_name_param, schema_name_param,status_param, message_param);
+    
 EXCEPTION
     WHEN OTHERS THEN
-        RAISE EXCEPTION 'error: %!!!', sqlerrm;
+        error_message := sqlerrm; 
+        INSERT INTO logs.table_logs(log_time, table_name, schema_name, error_message)
+        VALUES (start_time, table_name_param, schema_name_param, error_message);
+        RAISE NOTICE 'error: %!!!', error_message;
 END;
 $procedure$
 ;

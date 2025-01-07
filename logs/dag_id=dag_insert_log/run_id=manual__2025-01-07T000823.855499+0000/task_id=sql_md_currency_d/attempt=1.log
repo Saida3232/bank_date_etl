@@ -1,0 +1,16 @@
+[2025-01-07T00:09:01.533+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_insert_log.sql_md_currency_d manual__2025-01-07T00:08:23.855499+00:00 [queued]>
+[2025-01-07T00:09:01.557+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_insert_log.sql_md_currency_d manual__2025-01-07T00:08:23.855499+00:00 [queued]>
+[2025-01-07T00:09:01.559+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-01-07T00:09:01.646+0000] {taskinstance.py:2191} INFO - Executing <Task(SQLExecuteQueryOperator): sql_md_currency_d> on 2025-01-07 00:08:23.855499+00:00
+[2025-01-07T00:09:01.656+0000] {standard_task_runner.py:60} INFO - Started process 1256 to run task
+[2025-01-07T00:09:01.684+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_insert_log', 'sql_md_currency_d', 'manual__2025-01-07T00:08:23.855499+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/dag_insert_log.py', '--cfg-path', '/tmp/tmpx1zjmyar']
+[2025-01-07T00:09:01.698+0000] {standard_task_runner.py:88} INFO - Job 114: Subtask sql_md_currency_d
+[2025-01-07T00:09:02.024+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_insert_log.sql_md_currency_d manual__2025-01-07T00:08:23.855499+00:00 [running]> on host 22295d32c47d
+[2025-01-07T00:09:02.423+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='saida' AIRFLOW_CTX_DAG_ID='dag_insert_log' AIRFLOW_CTX_TASK_ID='sql_md_currency_d' AIRFLOW_CTX_EXECUTION_DATE='2025-01-07T00:08:23.855499+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-07T00:08:23.855499+00:00'
+[2025-01-07T00:09:02.432+0000] {sql.py:276} INFO - Executing: CALL ds.stage_to_md_currency_d();
+[2025-01-07T00:09:02.499+0000] {base.py:83} INFO - Using connection ID '***-db' for task execution.
+[2025-01-07T00:09:02.547+0000] {base.py:83} INFO - Using connection ID '***-db' for task execution.
+[2025-01-07T00:09:02.988+0000] {sql.py:450} INFO - Running statement: CALL ds.stage_to_md_currency_d();, parameters: None
+[2025-01-07T00:09:03.136+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_insert_log, task_id=sql_md_currency_d, execution_date=20250107T000823, start_date=20250107T000901, end_date=20250107T000903
+[2025-01-07T00:09:03.366+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-01-07T00:09:03.525+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

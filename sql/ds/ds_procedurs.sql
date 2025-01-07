@@ -1,13 +1,10 @@
--- DROP PROCEDURE ds.stage_to_ds_ft_balance_f();
-
 CREATE OR REPLACE PROCEDURE ds.stage_to_ds_ft_balance_f()
- LANGUAGE plpgsql
+LANGUAGE plpgsql
 AS $procedure$
 DECLARE
-    start_time TIMESTAMP = clock_timestamp();
-	changed_rows int;
+    changed_rows int;
+    message text;
 BEGIN
-    RAISE NOTICE 'the time start is %', start_time;
     INSERT INTO ds.ft_balance_f (on_date, account_rk, currency_rk, balance_out)
     SELECT
         on_date::date,
@@ -20,26 +17,26 @@ BEGIN
     DO UPDATE SET 
         currency_rk = EXCLUDED.currency_rk,
         balance_out = EXCLUDED.balance_out;
-	    GET DIAGNOSTICS 
+
+    GET DIAGNOSTICS 
         changed_rows = ROW_COUNT;
 
-    PERFORM pg_sleep(5);
-    CALL logs.logging_function('ft_balance_f','ds','INSERT',start_time, changed_rows);
-    EXCEPTION
-        WHEN OTHERS THEN
-            RAISE EXCEPTION 'Ошибка: %', SQLERRM;
+    message := FORMAT('INSERT INTO %I FROM %I. Count changed rows = %s', 'ds.ft_balance_f', 'stage.ft_balance_f', changed_rows);
+    CALL logs.logg_function('ft_balance_f', 'ds','success', message);
+EXCEPTION
+    WHEN OTHERS THEN
+		CALL logs.logg_function('ft_balance_f', 'ds','error', sqlerrm);
+        RAISE notice 'Ошибка: %', SQLERRM;
 END; 
-$procedure$
-;
+$procedure$;
 
--- DROP PROCEDURE ds.stage_to_ds_ft_posting_f();
 
 CREATE OR REPLACE PROCEDURE ds.stage_to_ds_ft_posting_f()
  LANGUAGE plpgsql
 AS $procedure$
 DECLARE
-    start_time TIMESTAMP = clock_timestamp();
-	changed_rows int;
+    changed_rows int;
+    message text;
 begin
 	insert
 	into
@@ -57,22 +54,23 @@ begin
 	from
 		stage.ft_posting_f;
 	get diagnostics changed_rows= ROW_COUNT;
-	PERFORM pg_sleep(5);
-    CALL logs.logging_function('ft_posting_f','ds','INSERT',start_time, changed_rows);
-	exception
-		when others then
-				raise exception 'Ошибка: %', SQLERRM;
+	message := FORMAT('INSERT INTO %I FROM %I. Count changed rows = %s', 'ds.ft_posting_f', 'stage.ft_posting_f', changed_rows);
+    CALL logs.logg_function('ft_posting_f', 'ds','success', message);
+    exception
+		WHEN OTHERS THEN
+		message = SQLERRM;
+		CALL logs.logg_function('ft_posting_f', 'ds','error', sqlerrm);
+        RAISE EXCEPTION 'Ошибка: %', SQLERRM;
 end;
  $procedure$
 ;
--- DROP PROCEDURE ds.stage_to_md_account_d();
 
 CREATE OR REPLACE PROCEDURE ds.stage_to_md_account_d()
  LANGUAGE plpgsql
 AS $procedure$
 DECLARE
-    start_time TIMESTAMP = clock_timestamp();
-	changed_rows int;
+    changed_rows int;
+    message text;
 begin
 	insert
 	into
@@ -102,12 +100,14 @@ begin
 		currency_code = EXCLUDED.currency_code
 	;
 	get diagnostics changed_rows= ROW_COUNT;
-	PERFORM pg_sleep(5);
-	CALL logs.logging_function('md_account_d','ds','INSERT',start_time, changed_rows);
+	message := FORMAT('INSERT INTO %I FROM %I. Count changed rows = %s', 'ds.md_account_d', 'stage.md_account_d', changed_rows);
+    CALL logs.logg_function('md_account_d', 'ds','success', message);
 
 	exception
-		when others then
-				raise exception 'Ошибка: %', SQLERRM;
+		WHEN OTHERS THEN
+			message = SQLERRM;
+			CALL logs.logg_function('md_account_d', 'ds','error', sqlerrm);
+	        RAISE EXCEPTION 'Ошибка: %', SQLERRM;
 end;
  $procedure$
 ;
@@ -118,8 +118,8 @@ CREATE OR REPLACE PROCEDURE ds.stage_to_md_currency_d()
  LANGUAGE plpgsql
 AS $procedure$
 DECLARE
-    start_time TIMESTAMP = clock_timestamp();
-	changed_rows int;
+    changed_rows int;
+    message text;
 begin
 	insert
 		into
@@ -142,24 +142,25 @@ begin
 		data_actual_end_date = EXCLUDED.data_actual_end_date,
 		code_iso_char = EXCLUDED.code_iso_char;
 	get diagnostics changed_rows= ROW_COUNT;
-    PERFORM pg_sleep(5);
-    CALL logs.logging_function('currency_rk','ds','INSERT',start_time, changed_rows);
+    message := FORMAT('INSERT INTO %I FROM %I. Count changed rows = %s', 'ds.md_currency_d', 'stage.md_currency_d', changed_rows);
+    CALL logs.logg_function('md_currency_d', 'ds','success', message);
 
 	exception
-		when others then
-				raise exception 'Ошибка: %', SQLERRM;
+		WHEN OTHERS THEN
+			message = SQLERRM;
+			CALL logs.logg_function('md_currency_d', 'ds','error', sqlerrm);
+	        RAISE EXCEPTION 'Ошибка: %', SQLERRM;
 end;
  $procedure$
 ;
-
 -- DROP PROCEDURE ds.stage_to_md_exchange_rate_d();
 
 CREATE OR REPLACE PROCEDURE ds.stage_to_md_exchange_rate_d()
  LANGUAGE plpgsql
 AS $procedure$
 	DECLARE
-	    start_time TIMESTAMP = clock_timestamp();
-		changed_rows int;
+	    changed_rows int;
+	    message text;
 	begin
 		INSERT INTO ds.md_exchange_rate_d (data_actual_date, data_actual_end_date, currency_rk, reduced_cource, code_iso_num)
 	SELECT 
@@ -176,24 +177,25 @@ AS $procedure$
 	    reduced_cource = EXCLUDED.reduced_cource,
 	    code_iso_num = EXCLUDED.code_iso_num;
 	get diagnostics changed_rows= ROW_COUNT;
-    PERFORM pg_sleep(5);
-    CALL logs.logging_function('md_exchange_rate_d','ds','INSERT',start_time, changed_rows);
-
+    message := FORMAT('INSERT INTO %I FROM %I. Count changed rows = %s', 'ds.md_exchange_rate_d', 'stage.md_exchange_rate_d', changed_rows);
+    CALL logs.logg_function('md_exchange_rate_d', 'ds','success', message);
 	exception
-		when others then
-				raise exception 'Ошибка: %', SQLERRM;
+		WHEN OTHERS THEN
+			message = SQLERRM;
+			CALL logs.logg_function('md_exchange_rate_d', 'ds','error', sqlerrm);
+	        RAISE EXCEPTION 'Ошибка: %', SQLERRM;
 end;
  $procedure$
 ;
 
--- DROP PROCEDURE ds.stage_to_md_ledger_account_s();
+
 
 CREATE OR REPLACE PROCEDURE ds.stage_to_md_ledger_account_s()
  LANGUAGE plpgsql
 AS $procedure$
 DECLARE
-    start_time TIMESTAMP = clock_timestamp();
-	changed_rows int;
+    changed_rows int;
+    message text;
 begin
 	insert
 	into
@@ -238,14 +240,14 @@ begin
 		end_date = EXCLUDED.end_date
 	;
 	get diagnostics changed_rows= ROW_COUNT;
-    PERFORM pg_sleep(5);
-    CALL logs.logging_function('md_ledger_account_s','ds','INSERT',start_time, changed_rows);
+	message := FORMAT('INSERT INTO %I FROM %I. Count changed rows = %s', 'ds.md_ledger_account_s', 'stage.md_ledger_account_s', changed_rows);
+    CALL logs.logg_function('md_ledger_account_s', 'ds','success', message);
+	
 	exception
-		when others then
-			raise exception 'Ошибка: %', SQLERRM;
+		WHEN OTHERS THEN
+			message = SQLERRM;
+			CALL logs.logg_function('md_ledger_account_s', 'ds','error', sqlerrm);
+	        RAISE EXCEPTION 'Ошибка: %', SQLERRM;
 end;
  $procedure$
 ;
-
-
-
