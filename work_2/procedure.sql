@@ -74,15 +74,18 @@ begin
 	left join ds.md_exchange_rate_d merd on  fbf.currency_rk=merd.currency_rk and ta.on_date between merd.data_actual_date and merd.data_actual_end_date; 
 
 	exception
-		when others then raise exception 'errrror: %',sqlerrm;
+		when others then raise exception 'error: %',sqlerrm;
 	end;
 $$;
 
 INSERT INTO dm.dm_account_balance_f
 (account_rk, on_date, balance_out, balance_out_rub)
-select account_rk, on_date,balance_out, 
-from ds.
-left join dm.dm_account_turnover_f d on  t.account_rk=d.account_rk and d.on_date = t.on_date
+select fbf.account_rk, fbf.on_date,balance_out, balance_out * coalesce(reduced_cource,1)
+from ds.ft_balance_f fbf
+left join ds.md_exchange_rate_d merd on  fbf.currency_rk=merd.currency_rk and fbf.on_date between merd.data_actual_date and merd.data_actual_end_date 
+where fbf.on_date = '2017-12-31'
+
+
 DO
 $$
 DECLARE
@@ -93,3 +96,4 @@ BEGIN
     END LOOP;
 END
 $$;
+
