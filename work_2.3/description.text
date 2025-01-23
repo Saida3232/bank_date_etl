@@ -1,0 +1,117 @@
+Описание процедуры обновления данных в таблице dm.account_balance_turnover
+Введение
+В данной документации описываются два подхода к обновлению данных в таблице dm.account_balance_turnover, основанные на значениях из таблицы источника rd.account_balance. Основная цель — обеспечить актуальность и корректность данных в витрине.
+
+1. Обновление некорректных значений в таблице rd.account_balance
+Случай 1: Корректировка account_in_sum
+Если значения полей account_in_sum одного дня и account_out_sum предыдущего дня отличаются, корректным выбирается значение account_out_sum предыдущего дня. Для этого используется следующий SQL-запрос:
+
+with t as(
+select account_rk, 
+	   effective_date, 
+	   case
+	   		when account_in_sum != lag(account_out_sum) over(partition by account_rk order by effective_date)
+	   		then lag(account_out_sum) over(partition by account_rk order by effective_date)
+	   		else account_in_sum
+	   end as account_in_sum,
+	   account_out_sum
+from rd.account_balance ab 
+)
+update rd.account_balance r
+set account_out_sum = t.account_out_sum
+from t
+where r.account_rk = t.account_rk and r.effective_date = t.effective_date and r.account_out_sum != t.account_out_sum
+
+
+Случай 2: Корректировка account_out_sum
+Если account_in_sum одного дня правильная, а account_out_sum предыдущего дня некорректна, используется следующий запрос для обновления:
+with t as(
+select account_rk, 
+	   effective_date, 
+	   account_in_sum , 
+	   case 
+   		when account_out_sum != lead(account_in_sum) over(partition by account_rk order by effective_date)
+   		then lead(account_in_sum) over(partition by account_rk order by effective_date)
+   		else account_out_sum
+   	   end as account_out_sum
+from rd.account_balance ab 
+)
+update rd.account_balance r
+set account_out_sum = t.account_out_sum
+from t
+where r.account_rk = t.account_rk and r.effective_date = t.effective_date and r.account_out_sum != t.account_out_sum
+
+
+
+2. Подготовка запроса для вставки данных в dm.account_balance_turnover
+После обновления данных в источнике, необходимо подготовить запрос для вставки актуальных данных в таблицу dm.account_balance_turnover:
+
+INSERT INTO dm.account_balance_turnover
+(account_rk, currency_name, department_rk, effective_date, account_in_sum, account_out_sum)
+SELECT a.account_rk,
+	   COALESCE(dc.currency_name, '-1'::TEXT) AS currency_name,
+	   a.department_rk,
+	   ab.effective_date,
+	   case
+	   		when ab.account_in_sum != lag(account_out_sum) over(partition by a.account_rk order by ab.effective_date)
+	   		then lag(account_out_sum) over(partition by a.account_rk order by ab.effective_date)
+	   		else ab.account_in_sum
+	   end as new_account_in,
+	   ab.account_out_sum
+FROM rd.account a
+LEFT JOIN rd.account_balance ab ON a.account_rk = ab.account_rk
+LEFT JOIN dm.dict_currency dc ON a.currency_cd = dc.currency_cd;
+
+
+3. Процедуры для перезагрузки данных в витрину
+Процедура 1: Полная перезагрузка данных
+Процедура dm.fill_account_balance выполняет полное удаление всех данных из таблицы dm.account_balance_turnover и последующую загрузку актуальных данных:
+
+create or replace procedure dm.fill_account_balance_turnover()
+language plpgsql
+as $$
+	begin
+		truncate table dm.account_balance_turnover;
+				
+		INSERT INTO dm.account_balance_turnover
+		(account_rk, currency_name, department_rk, effective_date, account_in_sum, account_out_sum)
+		SELECT a.account_rk,
+			   COALESCE(dc.currency_name, '-1'::TEXT) AS currency_name,
+			   a.department_rk,
+			   ab.effective_date,
+			   case
+			   		when ab.account_in_sum != lag(account_out_sum) over(partition by a.account_rk order by ab.effective_date)
+			   		then lag(account_out_sum) over(partition by a.account_rk order by ab.effective_date)
+			   		else ab.account_in_sum
+			   end as new_account_in,
+			   ab.account_out_sum
+		FROM rd.account a
+		LEFT JOIN rd.account_balance ab ON a.account_rk = ab.account_rk
+		LEFT JOIN dm.dict_currency dc ON a.currency_cd = dc.currency_cd;
+		
+		exception
+			when others then raise exception 'error: %',sqlerrm;
+	end;
+$$;
+
+
+
+Процедура 2: Обновление некорректных значений
+Процедура dm.fill_account_balance_2 обновляет некорректные значения в таблице dm.account_balance_turnover, основываясь на данных из таблицы источника rd.account_balance
+
+create or replace procedure dm.fill_account_balance_turnover_2()
+language plpgsql
+as $$
+	begin
+
+		update dm.account_balance_turnover ab
+		set account_out_sum = r.account_out_sum
+		from rd.account_balance r
+		where ab.account_rk = r.account_rk 
+				and ab.effective_date = r.effective_date 
+				and ab.account_out_sum != r.account_out_sum
+		exception
+			when others then raise exception 'error: %',sqlerrm;
+	end;
+$$;
+
